@@ -1,4 +1,4 @@
-# main.py
+# dette er en git test
 import inputdata
 import folium
 from folium.plugins import BeautifyIcon
