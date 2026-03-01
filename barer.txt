@@ -1,0 +1,43 @@
+
+🍺 0. FABRIKA the beer pub
+48.15182627886605, 17.107231000111636
+Štefánikova 864/4, 811 05 Staré Mesto, Slovakia
+
+🍺 1. Slovak Pub
+48.14854701234105, 17.11237076871906
+Obchodná 62, 811 06 Bratislava, Slovakia
+
+🍺 2. Meštiansky Pivovar
+48.147128299858416, 17.108219570565442
+Drevená 575/8, 811 06 Bratislava, Slovakia
+
+🍺 3. Goblins Pub
+48.14480666549827, 17.107241741730057
+Michalská 386/12, 811 01 Bratislava, Slovakia
+
+🍺 4. Zbrojnoš pub
+48.14523926417101, 17.10693702638934
+Michalská 390/22, 811 03 Staré Mesto, Slovakia
+
+🍺 5. Uisce Beatha
+48.14447214319138, 17.104926726389262
+Na vŕšku 341/1, 811 01 Staré Mesto, Slovakia
+
+🍺 6. Čierny Pes / Black Dog
+48.144360984677256, 17.10443442408554
+Na vŕšku 338/2, 811 01 Bratislava, Slovakia
+
+🍺 7. The Dubliner Irish Bar
+48.143748304706875, 17.10718045522443
+Sedlárska 6, 811 01 Staré Mesto, Slovakia
+
+
+
+# html = f"""
+        # <div style="max-width: 360px;">
+        #     [data.iloc[i][
+        #     <img src={data.iloc[i]["img"]}>
+        #     <br><strong>{data.iloc[i]["name"]}</strong>
+        #     <br><strong>{data.iloc[i]["addr"]}</span>
+        # </div>
+        # """´
