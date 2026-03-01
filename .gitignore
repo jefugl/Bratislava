@@ -1,0 +1,76 @@
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Environment / secrets ---
+.env
+.env.*.local
+*.env
+
+# --- Build / packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheels/
+*.egg
+MANIFEST
+
+# --- Testing / coverage ---
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+.profile
+ipython_config.py
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.temp
+.DS_Store
+
+# --- Tools / linters ---
+.mypy_cache/
+.pyre/
+.pytype/
+.pyright/
+ruff_cache/
+
+# --- Editors/IDE ---
+# PyCharm
+.idea/
+# VS Code
+.vscode/
+
+# --- Type checking / compiled stubs ---
+typings/
+*.pyi
+
+# --- Data artifacts (valgfritt – kommenter ut hvis du vil spore data) ---
+# data/
+# *.csv
+# *.tsv
+# *.parquet
+# *.sqlite
+# *.db
+
+# --- Notebooks outputs (valgfritt) ---
+# **/*.nbconvert.ipynb
+
+# --- OS ---
+Thumbs.db
