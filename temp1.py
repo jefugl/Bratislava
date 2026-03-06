@@ -1,7 +1,7 @@
 # detect_nbsp.py
 from pathlib import Path
 
-p = Path("spam.py")
+p = Path("main.py")
 s = p.read_text(encoding="utf-8")
 
 found = False
